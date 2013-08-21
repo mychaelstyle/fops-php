@@ -1,0 +1,33 @@
+{
+  "name":"mychaelstyle/fops-php",
+  "description": "library for photo",
+  "keywords": ["Amazon","AWS","S3","SNS"],
+  "type": "library",
+  "license": "Apache2",
+  "authers": [
+    {
+      "name":"Masanori Nakashima",
+      "email":"",
+      "homepage":"http://www.mychaelstyle.com/"
+    }
+  ],
+  "repositories":[
+    {
+      "type": "vcs",
+      "url":  "https://github.com/mychaelstyle/php-utils.git"
+    }
+  ],
+  "require": {
+    "mychaelstyle/php-utils": "0.*",
+    "aws/aws-sdk-php": "2.*"
+  },
+  "require-dev":{
+    "phpunit/phpunit": "3.*",
+    "phing/phing": "2.*"
+  },
+  "autoload": {
+    "psr-0":{
+      "mychaelstyle": "src/"
+    }
+  }
+}
